@@ -1,0 +1,120 @@
+{
+	"storyboard" : ["default"],
+
+	"slides" : {
+		"introduction" : {
+			"name" : "Introduction",
+			"file" : "introduction.html",
+			"valid" : true
+		},
+		"mybetaapp_login" : {
+			"name" : "myBETAapp Login",
+			"file" : "mybetaapp_login.html",
+			"valid" : true
+		},
+		"pairing_betaconnect" : {
+			"name" : "Pairing BETACONNECT",
+			"file" : "pairing_betaconnect.html",
+			"valid" : true
+		},
+		"injection_recording" : {
+			"name" : "Injection Recording",
+			"file" : "injection_recording.html",
+			"valid" : true
+		},
+		"calendar" : {
+			"name" : "Calendar",
+			"file" : "calendar.html",
+			"valid" : true
+		},
+		"wellness_tracker" : {
+			"name" : "Wellness Tracker",
+			"file" : "wellness_tracker.html",
+			"valid" : true
+		},
+		"sharing_data" : {
+			"name" : "Sharing Data",
+			"file" : "sharing_data.html",
+			"valid" : true
+		},
+		"hcp_dashboard" : {
+			"name" : "HCP/BetaNurse Dashboard",
+			"file" : "hcp_dashboard.html",
+			"valid" : true
+		},
+		"conclusion" : {
+			"name" : "Conclusion",
+			"file" : "conclusion.html",
+			"valid" : true
+		}
+	},
+
+	"structures" : {	
+		"default" : {
+			"name" : "Default slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"introduction" : {
+			"name" : "Introduction slide",
+			"type" : "slideshow",
+			"content" : ["introduction"],
+			"valid":true
+		},
+		"mybetaapp_login" : {
+			"name" : "myBETAapp Login",
+			"type" : "slideshow",
+			"content" : ["mybetaapp_login"],
+			"valid":true
+		},
+		"mybetaapp_login_dup" : {
+			"name" : "myBETAapp Login Dup",
+			"type" : "slideshow",
+			"content" : ["mybetaapp_login_dup"],
+			"valid":true
+		},
+		"pairing_betaconnect" : {
+			"name" : "Pairing BETACONNECT",
+			"type" : "slideshow",
+			"content" : ["pairing_betaconnect"],
+			"valid":true
+		},
+		"injection_recording" : {
+			"name" : "Injection Recording",
+			"type" : "slideshow",
+			"content" : ["injection_recording"],
+			"valid":true
+		},
+		"calendar" : {
+			"name" : "Calendar",
+			"type" : "slideshow",
+			"content" : ["calendar"],
+			"valid":true
+		},
+		"wellness_tracker" : {
+			"name" : "Wellness Tracker",
+			"type" : "slideshow",
+			"content" : ["wellness_tracker"],
+			"valid":true
+		},
+		"sharing_data" : {
+			"name" : "Sharing Data",
+			"type" : "slideshow",
+			"content" : ["sharing_data"],
+			"valid":true
+		},
+		"hcp_dashboard" : {
+			"name" : "HCP/BetaNurse Dashboard",
+			"type" : "slideshow",
+			"content" : ["hcp_dashboard"],
+			"valid":true
+		},
+		"conclusion" : {
+			"name" : "Conclusion",
+			"type" : "slideshow",
+			"content" : ["conclusion"],
+			"valid":true
+		}
+	}
+}

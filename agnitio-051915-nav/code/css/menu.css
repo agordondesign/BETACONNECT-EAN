@@ -1,0 +1,102 @@
+.thumb-indicators {
+    position:absolute;
+    bottom:20px;
+}
+#mainmenu {
+    height:50px;
+    z-index: 1000;
+    -webkit-transform: translateY(-45px);
+}
+.menu {
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-box;
+    display:box;
+    -webkit-box-orient:horizontal;
+    -moz-box-orient:horizontal;
+    -ms-box-orient:horizontal;
+    box-orient:horizontal;
+    overflow:hidden;
+    /*background: url("../../content/img/menu/background.png");*/
+    background-color: rgba(0,0,0,0.7);
+    white-space: nowrap;
+    font-size: 16px;
+    width:10000px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.menu li {
+    border-right: solid 1px #000;
+    color:#ffffff;
+    height:15px;
+    text-align:center;
+    display:block;
+    pointer-events:auto;
+    padding: 15px 30px;
+}
+.menu.vert-menu {
+    display: block;
+    width:33%;
+}
+.menu.vert-menu li {
+}
+.menu .selected {
+    color: #000;
+    /*color: #5B7F8D;*/
+    /*background:-webkit-gradient(linear,left bottom,left top,color-stop(0.2, #fbf9f9),color-stop(1.0, #b3b3b3));*/
+    /*background: -ms-linear-gradient(top, rgba(251,249,249,1) 20%,rgba(179,179,179,1) 100%);*/ /* IE10+ */
+    /*background: linear-gradient(to bottom, rgba(251,249,249,1) 20%,rgba(179,179,179,1) 100%);*/
+    background: rgb(241,231,103); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZTc2NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWI2NDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(241,231,103,1)), color-stop(100%,rgba(254,182,69,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 ); /* IE6-8 */
+}
+.menu .home {
+    width: 60px;
+    height: 50px;
+    padding: 0px;
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .home.selected {
+    background: url(../../content/img/menu/home-button-active.png) no-repeat center center, #58595B;
+}
+
+.menu .efficacy-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .safety-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .patientprofile-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .moa-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .fasttrack-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .buildtrack-btn{
+    background: url(../../content/img/menu/build.png) no-repeat center center;
+}
+.menu .savedtracks-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .services-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+.menu .references-btn{
+    background: url(../../content/img/menu/home-button.png) no-repeat center center;
+}
+
+@media all and (orientation:landscape) {
+    li[data-goto='vert-magazine']{display:none;}
+}

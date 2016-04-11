@@ -1,0 +1,55 @@
+,
+		"introduction" : {
+			"name" : "Introduction slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"login" : {
+			"name" : "Login slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"login_dup" : {
+			"name" : "Login slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"pairing" : {
+			"name" : "Pairing slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"injection" : {
+			"name" : "Injection slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"calendar" : {
+			"name" : "Calendar slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"wellness" : {
+			"name" : "Wellness slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"sharing" : {
+			"name" : "Sharing slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},
+		"hcp" : {
+			"name" : "HCP slideshow",
+			"type" : "collection",
+			"content" : ["introduction","mybetaapp_login","mybetaapp_login_dup","pairing_betaconnect","injection_recording","calendar","wellness_tracker","sharing_data","hcp_dashboard","conclusion"],
+			"valid":true
+		},

@@ -1,0 +1,11 @@
+@import url("_framework/styles/reset.css");
+@import url("_framework/styles/slideshow.css");
+@import url("_framework/styles/core.css");
+
+@import url("modules/loader/loader.css");
+@import url("code/css/menu.css");
+
+@import url("code/css/font-awesome.min.css");
+@import url("code/css/styles.css");
+
+/*@import url("code/css/reset.css");*/
