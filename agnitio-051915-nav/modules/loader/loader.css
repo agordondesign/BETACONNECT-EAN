@@ -32,8 +32,12 @@
 }
 .loader ul {
     position: absolute;
-    top: 216px;
-    left: 485px;
+    /*top: 216px;*/
+    /*left: 485px;*/
+    top: 25%;
+    margin-top: 0px;
+    left: 50%;
+    margin-left: -160px;
     -webkit-transform: rotate(-8deg) scale(0.3);
     -moz-transform: rotate(-8deg) scale(0.3);
     -ms-transform: rotate(-8deg) scale(0.3);

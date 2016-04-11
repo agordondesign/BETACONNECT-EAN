@@ -3,12 +3,14 @@ html body {
 	/*padding: 0 auto;*/
 	font-size: 16px;
 	font-family: verdana;
-	width: 1024px;
-	height: 768px;	 
-	background-color: #fff;
+	/*width: 1024px;*/
+	/*height: 768px;*/
+	width: 1366px;
+	height: 1025px;	 
+	background-color: #eee;
 	border: none;
 	outline: none;
-	/*margin-top: 20px;*/
+	margin-top: 20px;
 }
 * {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -45,8 +47,12 @@ footer {
 	font-size: 1.2em;
 	z-index: 2;
 	text-align: center;
-	margin-left: 477px;
-	margin-top: 354px;
+	/*margin-left: 477px;*/
+	/*margin-top: 354px;*/
+	left: 50%;
+	margin-left: -45px;
+	top: 50%;
+	margin-top: -80px;
 }
 .btnskip {
 	position: absolute;
@@ -62,14 +68,16 @@ footer {
 	bottom: 0;
 	right: 0;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .democontainer {
 	position: absolute;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	width: 1024px;
-	height: 720px;
+	/*width: 1024px;*/
+	/*height: 720px;*/
+	width: 1366px;
+	height: 1025px;
 	overflow: hidden;
 }
 .iphonecontainer {
@@ -202,8 +210,8 @@ footer {
 	-webkit-background-size: cover;
 }
 /** SCENE 1 **/
-video#intro1 { width: 1026px; height: 768px; position: absolute; margin-top: -20px; }
-video#intro2 { width: 1026px; height: 768px; position: absolute; margin-top: -40px; /*display: none;*/ }
+video#intro1 { width: 1368px; height: 1025px; position: absolute; margin-top: -20px; margin-left: -2px; }/*width: 1026px; height: 768px;*/
+video#intro2 { width: 1368px; height: 1025px; position: absolute; margin-top: -40px; /*display: none;*/ }
 /** SCENE 2 **/
 .btnicon {
 	position: absolute;
@@ -296,7 +304,7 @@ video#intro2 { width: 1026px; height: 768px; position: absolute; margin-top: -40
 	z-index: 100;
 }
 /** SCENE 4 **/
-video#bgvid { width: 1024px; height: 720px; position: absolute; margin-left: -35px; }
+video#bgvid { width: 1368px; height: 1025px; position: absolute; margin-left: -35px; }
 #bgvid { opacity: 0; }
 .deviceshot { margin-top: 127px; }
 #btnplay {
@@ -471,7 +479,7 @@ video#bgvid { width: 1024px; height: 720px; position: absolute; margin-left: -35
 	margin-left: 924px;
 	-webkit-transform: translateX(1000px);
 }
-video#bgvid2 { width: 1024px; height: 768px; position: absolute; }
+video#bgvid2 { width: 1366px; height: 1025px; position: absolute; }
 #bgvid2 { opacity: 0; }
 .sync {
 	position: absolute;
@@ -698,7 +706,7 @@ video#bgvid2 { width: 1024px; height: 768px; position: absolute; }
 .mac {
 	position: absolute;
 }
-video#outro { width: 1024px; height: 768px; }
+video#outro { width: 1366px; height: 1025px; }
 .outroalt { opacity: 1; position: absolute; }
 
 #pulldown {
@@ -707,7 +715,9 @@ video#outro { width: 1024px; height: 768px; }
     height: 50px;
     background-color: rgba(0,0,0,0.2);
     margin-top: 55px;
-    margin-left: 964px;
+    right: 0;
+    /*margin-left: 964px;*/
+    margin-right: 20px;
     z-index: 1000;
     color: #fff;
     text-align: center;
